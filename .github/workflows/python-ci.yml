@@ -40,7 +40,7 @@ jobs:
 
       - name: Run tests with coverage
         run: |
-          pytest --cov=src/igapy --cov-report=term-missing
+          pytest --cov --cov-report=term-missing
 
       - name: Generate coverage XML
         run: coverage xml
