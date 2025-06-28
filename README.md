@@ -1,7 +1,7 @@
 # igapy – IG API Wrapper
 
+<!-- [![Downloads](https://static.pepy.tech/badge/igapy)](https://pepy.tech/project/igapy) -->
 [![PyPI version](https://img.shields.io/pypi/v/igapy.svg)](https://pypi.org/project/igapy)
-[![Downloads](https://static.pepy.tech/badge/igapy)](https://pepy.tech/project/igapy)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python versions](https://img.shields.io/pypi/pyversions/igapy.svg)](https://pypi.org/project/igapy)
 [![CI](https://github.com/vilhelmhilding/igapy/actions/workflows/python-ci.yml/badge.svg)](https://github.com/vilhelmhilding/igapy/actions)
