@@ -1,0 +1,52 @@
+[project]
+name = "igapy"
+version = "1.0.0"
+description = "A modern Python wrapper for the IG REST and streaming API."
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Vilhelm Hilding", email = "hi@vilhelmhilding.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+  "requests",
+  "websocket-client",
+  "lightstreamer-client-lib"
+]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://github.com/vilhelmhilding/igapy"
+Source = "https://github.com/vilhelmhilding/igapy"
+
+[project.optional-dependencies]
+dev = [
+  "pytest",
+  "flake8",
+  "black",
+  "pytest-cov"
+]
+
+[project.scripts]
+igapy = "igapy.cli:main"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["igapy*"]
+
+[tool.black]
+line-length = 79
+target-version = ["py311", "py312"]
+
+[tool.flake8]
+max-line-length = 79
