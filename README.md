@@ -185,23 +185,6 @@ Pull requests and issues are welcome!
 │       ├── exceptions.py
 │       └── utils.py
 └── tests/
-    ├── conftest.py
-    ├── test_accounts.py
-    ├── test_cli.py
-    ├── test_client.py
-    ├── test_costs.py
-    ├── test_exceptions.py
-    ├── test_history.py
-    ├── test_markets.py
-    ├── test_operations.py
-    ├── test_orders.py
-    ├── test_prices.py
-    ├── test_repeat.py
-    ├── test_sentiment.py
-    ├── test_session.py
-    ├── test_streaming.py
-    ├── test_utils.py
-    └── test_watchlists.py
 ```
 
 ---
